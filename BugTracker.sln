@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31808.319
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{91945161-E4B5-4540-9F49-FC48FEEFE52A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{91945161-E4B5-4540-9F49-FC48FEEFE52A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{FEA2410F-254E-4823-9CFE-90DF72615E59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{FEA2410F-254E-4823-9CFE-90DF72615E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance", "Persistance\Persistance.csproj", "{D4FEF315-66EA-4544-8CDB-6FFE35DC15AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FEA2410F-254E-4823-9CFE-90DF72615E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEA2410F-254E-4823-9CFE-90DF72615E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEA2410F-254E-4823-9CFE-90DF72615E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FEF315-66EA-4544-8CDB-6FFE35DC15AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FEF315-66EA-4544-8CDB-6FFE35DC15AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FEF315-66EA-4544-8CDB-6FFE35DC15AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FEF315-66EA-4544-8CDB-6FFE35DC15AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
