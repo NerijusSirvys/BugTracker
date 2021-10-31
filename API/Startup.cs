@@ -1,3 +1,5 @@
+using Application;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -34,6 +36,8 @@ namespace API
                 config.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
+            // point mediator to the correct assembly
+            services.AddMediatR(typeof(MediatorEntryPoint).Assembly);
             
         }
 

@@ -10,9 +10,8 @@ using System.Threading.Tasks;
 
 namespace Persistance
 {
-    public class DataContext : IdentityDbContext<Employee>
+    public class DataContext : DbContext
     {
-        public DbSet<Employee> Employees { get; set; }
         
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
@@ -25,6 +24,7 @@ namespace Persistance
 
             modelBuilder.Entity<Employee>().ToTable("Employees");
         }
+        public DbSet<Employee> Employees { get; set; }
 
 
     }
